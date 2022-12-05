@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Sky8-emu</title>
+</head>
+<style type="text/css">
+	*{
+		margin: 0;
+		padding: 0;
+	}
+</style>
+<body style="background: black;padding: 0px;margin: 0px;">
+	<header style="background:#1b1b32;">
+		<h1 style="text-align: center;font-size: 30px;color: white;font-family: monospace;padding: 15px;">
+		🔥 SKY8-emu 🥷
+		</h1>
+	</header>
+	<main style="display: flex;margin-top: 50px;">
+		<canvas id="screen" style="border: 2px solid white;width:60%;margin: 0 5% 0 5%;"></canvas>
+		<div id="keypad" style="color:white;font-size: 1rem;width:auto;right:0px;">
+			<pre>
+The keys are mapped like this
+
++-+-+-+-+
+|1|2|3|C|
++-+-+-+-+
+|4|5|6|D|
++-+-+-+-+    This is CHIP-8 keypad
+|7|8|9|E|
++-+-+-+-+
+|A|0|B|F|
++-+-+-+-+
+
++-+-+-+-+
+|1|2|3|4|
++-+-+-+-+
+|Q|W|E|R|
++-+-+-+-+    This is your keypad
+|A|S|D|F|      (QWERTY layout)
++-+-+-+-+
+|Z|X|C|V|
++-+-+-+-+
+			</pre>
+		</div>
+	</main>
+	<select id="rom" style="color:white;background:#1b1b32;padding: 5px;font-size: 1rem;margin: 20px;margin-left: 5%;border: 2px solid white;">
+		<option value="INVADERS">Space Invaders</option>
+		<option value="MAZE">Maze</option>
+		<option value="TETRIS">Tetris</option>
+		<option value="TANK">Tank</option>
+		<option value="BLINKY">Blinky</option>
+		<option value="TICTAC">Tictac</option>
+		<option value="ibm.ch8">IBM logo</option>
+		<option value="PONG">Pong</option>
+		<option value="GUESS">Guess</option>
+		<option value="MISSILE">Missile</option>
+		<option value="BRIX">Brix</option>
+	</select>
+	<button id="reset" style="color:white;background:#1b1b32;padding: 5px;font-size: 1rem;margin: 20px;border:2px solid white;">
+		Reload
+	</button>
+	<footer style="text-align:center;color: white;"><a href="https://github.com/Skyhero-admin/Sky8-emu.js">See source</a></footer>
+
+</body>
+<script type="module" src="index.js"></script>
+</html>

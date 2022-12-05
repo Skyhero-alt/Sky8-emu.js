@@ -1,0 +1,22 @@
+{
+  "name": "jsky8",
+  "version": "1.0.0",
+  "description": "An attempt to build a chip-8 emulator",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Skyhero-admin/Sky8-emu.js.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Skyhero-admin/Sky8-emu.js/issues"
+  },
+  "homepage": "https://github.com/Skyhero-admin/Sky8-emu.js#readme",
+  "devDependencies": {
+    "eslint": "^7.28.0"
+  }
+}

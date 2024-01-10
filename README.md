@@ -4,7 +4,7 @@ I started making this as it seemed like a fun project to work on and also becaus
 
 <img src="screenshot.png">
 
-## Check out the live site here: https://skyhero-alt.github.io/Sky8-emu.js/
+## Check out the live site here: [https://skyhero-alt.github.io/Sky8-emu.js/](https://sky8-emu.netlify.app/)
 
 
 ### References I used:
